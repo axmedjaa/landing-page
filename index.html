@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- menu -->
+    <section class="m-w-6xl mx-auto  flex justify-start md:justify-around items-center mb-2">
+     <!-- title -->
+        <h1 class="text-2xl  text-blue-900 capitalize">company<span class="uppercase">l</span>ogo</h1>
+        <!-- link -->
+      <div class="hidden md:block flex space-x-3 text-gray-800">
+        <a href="#" class="">features</a>
+        <a href="#" class="">testimonials</a>
+        <a href="#" class="">pricing</a>
+        <a href="#" class="">contact</a>
+      </div>
+    </section>
+    <!-- hero -->
+     <section class="w-full  h-96 p-4 bg-purple-500 flex flex-col justify-center items-center space-y-3 text-white">
+        <!-- title -->
+        <h1 class="text-xl md:text-2xl lg:text-5xl font-bold">transform your business</h1>
+        <!-- text -->
+        <p class="text-sm md:text-base lg:text-lg font-light ">Elevate your online presence with our cutting-edge solutions</p>
+        <!-- button -->
+         <button class="bg-white text-blue-900 rounded-lg px-4  capitalize">get start</button>
+     </section>
+     <!-- testimonials -->
+      <section class="w-full mx-auto flex flex-col justify-center items-center bg-gray-100 py-12">
+        <!-- title -->
+         <h1 class="text-lg md:text-xl lg:text-2xl font-bold">Why Choose Us</h1>
+         <!-- boxs -->
+          <div class="w-full max-w-screen-lg mx-auto p-4 md:p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- box1 -->
+             <div class="flex flex-col p-2  shadow-lg">
+                <div class="text-yellow-500 text-2xl mb-4">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h1 class="text-base md:text-lg font-bold">Lightning Fast</h1>
+                <p class="font-light">Experience blazing fast performance with our optimized solutions.</p>
+             </div>
+            <!-- box2-->
+             <div class="flex flex-col p-2 shadow-lg">
+                <div class="text-red-500 text-2xl mb-4">
+                    <i class="fas fa-shield-alt"></i>
+                  </div>
+                <h1 class="text-base md:text-lg font-bold">Secure</h1>
+                <p class="font-light">Tour data le protected with ettterprise-grade secant</p>
+             </div>
+            <!-- box3 -->
+             <div class="flex flex-col p-2 shadow-lg">
+                <div class="text-blue-500 text-2xl mb-4">
+                    <i class="fas fa-gem"></i> 
+                  </div>
+                <h1 class="text-base md:text-lg font-bold">Premium Quality.</h1>
+                <p class="font-light">Unmatched quality that sets us apart hom the competition</p>
+             </div>
+          </div>
+      </section>
+      <!-- comments -->
+       <section class="w-full flex flex-col space-y-3 justify-center items-center py-12">
+        <h1 class="text-xl md:2xl font-bold">what our clients say</h1>
+        <div class="w-full max-w-screen-lg flex flex-col  md:flex-row md:space-x-3">
+            <!-- comment1 -->
+            <div class="flex flex-col bg-gray-100 p-6 rounded-lg mb-4 ">
+                <p class="font-light text-sm">"The best decision we made for our business. The results have been incredible"</p>
+                <!-- person -->
+                <div class="flex items-center space-x-2 mt-2">
+                    <img src="https://lastdeal.com.sa/wp-content/uploads/2022/10/GettyImages-1197454690.jpg" alt="" class="w-10 h-10 rounded-3xl">
+                    <div class="">
+                        <h4 class="font-bold">John Smith</h4>
+                        <p class="font-light text-sm">CEO, TechCarp</p>
+                    </div>
+                </div>
+            </div>
+            <!-- comment2 -->
+            <div class="flex flex-col bg-gray-100 p-6 rounded-lg mb-4">
+                <p class="font-light text-sm">"Outstanding service and support. They truly understand our needs."</p>
+                <!-- person -->
+                <div class="flex items-center space-x-2 mt-2">
+                    <img src="https://cahoonmuseum.org/wp-content/uploads/1673038713598.jpg" alt="" class="w-10 h-10 rounded-3xl">
+                    <div class="">
+                        <h4 class="font-bold">Sarah Johmson</h4>
+                        <p class="font-light text-sm">Founder, Design Stutio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!-- price -->
+        <section class="w-full flex flex-col justify-center items-center py-12 space-y-8">
+            <!-- title -->
+             <h1 class="text-xl md:text-2xl font-bold">Simple, Transparent Pricing</h1>
+            <!-- priceboxs -->
+             <div class="w-full max-w-screen-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- box1 -->
+                 <div class="flex flex-col justify-center p-4 space-y-3 shadow-lg shadow-lg border-2 hover:border-violet-500">
+                    <h4 class="text-lg font-bold">Starter</h4>
+                    <h2 class="text-xl font-bold">$29<span class="text-xs font-light">/mo</span></h2>
+                    <!-- tic1 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>Basic Features</span>
+                     </div>
+                    <!-- tic2 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>5 Projects</span>
+                     </div>
+                    <!-- tic3 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>Basic Support</span>
+                     </div>
+                     <button class="bg-violet-500 text-white py-1 px-2 rounded-lg">Get Started</button>
+                 </div>
+                <!-- box2 -->
+                 <div class="flex flex-col justify-center p-4 space-y-3 shadow-lg border-2 hover:border-violet-500">
+                    <h4 class="text-lg font-bold">Professional</h4>
+                    <h2 class="text-xl font-bold">$29<span class="text-xs font-light">/mo</span></h2>  
+                 <!-- tic1 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>Advanced Features</span>
+                     </div>
+                    <!-- tic2 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>Unlimited Projects</span>
+                     </div>
+                    <!-- tic3 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>Priority Support</span>
+                     </div>
+                     <button class="bg-violet-500 text-white py-1 px-2 rounded-lg">Get Started</button>
+                 </div>
+                <!-- box3 -->
+                 <div class="flex flex-col justify-center p-4 space-y-3 shadow-lg shadow-lg border-2 hover:border-violet-500">
+                    <h4 class="text-lg font-bold">Enterprise</h4>
+                    <h2 class="text-xl font-bold">$29<span class="text-xs font-light">/mo</span></h2>      
+                     <!-- tic1 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>Custom Features</span>
+                     </div>
+                    <!-- tic2 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>Dedicated Support</span>
+                     </div>
+                    <!-- tic3 -->
+                     <div class="">
+                        <i class="fa-duotone fa-solid fa-check text-green-500"></i>
+                        <span>SLA Agreement</span>
+                     </div>
+                     <button class="bg-violet-500 text-white py-1 px-2 rounded-lg">Contact Sales</button>
+                 </div>
+             </div>
+        </section>
+        <!-- register -->
+         <section class="w-full  mx-auto flex flex-col py-12 space-y-8 justify-center items-center">
+            <h1 class="">Get In Touch</h1>
+            <form class="w-full md:w-1/2 max-w-screen-lg flex flex-col space-y-4">
+                <input type="text" placeholder="name" class="w-full border-2 shadow-lg p-2 rounded-lg" required>
+                <input type="password" placeholder="password" class="w-full border-2 shadow-lg p-2 rounded-lg" required>
+                 <textarea  class="w-full h-24 px-2 border-2 shadow-lg  rounded-lg resize-none" placeholder="message" required></textarea>
+                <button type="submit" class=" w-full bg-violet-500 text-white py-2 px-2 rounded-lg">Send message</button>
+            </form>
+         </section>
+         <footer class="bg-gray-900 text-white w-full flex flex-col justify-center items-center py-12 space-y-8">
+          <!-- container -->
+           <div class="w-full max-w-screen-lg grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <!-- logo -->
+              <div class="flex flex-col px-4">
+                <h1 class="mb-2">ComponyLogo</h1>
+                <p class="font-light text-gray-300">transform your business with our cutting-edge-solution.</p>
+             </div>
+             <!-- links -->
+              <div class="px-4">
+                <h1 class="mb-2">Quick Links</h1>
+                <div class="flex flex-col font-light text-gray-300">
+                    <a href="#" class="">features</a>
+                    <a href="#" class="">testimonials</a>
+                    <a href="#" class="">pricing</a>
+                    <a href="#" class="">contact</a>
+                </div>
+              </div>
+              <!-- legal -->
+               <div class="px-4">
+                <h1 class="mb-2">Legal</h1>
+                <p class="font-light text-gray-300">Privacy Police</p>
+                <p class="font-light text-gray-300">Terms of Services</p>
+               </div>
+               <!-- contact -->
+                <div class="px-4">
+                    <h1 class="">contact</h1>
+                    <div class="mb-2">
+                        <span class="font-light text-gray-300">Twitter</span>
+                        <span class="font-light text-gray-300">Linkedin</span>
+                        <span class="font-light text-gray-300">Facebook</span>
+                    </div>
+                </div>
+                <!-- info -->
+           </div>
+           <div class="font-light text-gray-300">&copy; 2024 ComponyLogo. All rights reserved.</div>
+         </footer>
+</body>
+</html>
